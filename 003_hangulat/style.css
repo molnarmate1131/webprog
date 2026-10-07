@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: blue;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 75%;
+    /*border: 2px solid red;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.container > img {
+    height: 200px;
+}
+
+
+.container > input {
+    width: 50%;
+    height: 2rem;
+    background: #cccc;
+    border-radius: 5rem;
+    color: #ffff;
+}
